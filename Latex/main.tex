@@ -2,6 +2,7 @@
 \usepackage{ngerman}	%Benutzung deutscher Umlaute
 \usepackage{pgf}		%Zum Einbinden von JPEG
 \usepackage{amsmath}	%Einrücken von Gleichungen z.B. durch gather
+\usepackage{framed}
 
 \author{Alex Jäger}
 \title{Formelsammlung Hochfrequenztechnik}
@@ -27,12 +28,13 @@ oder
 	i(x+\Delta x,t)-i_g-i_c-i(x,t)=0 \\
 	i(x+\Delta x,t)-G'*\Delta x*u(x,t)-C'*\Delta x*\frac{\partial u(x,t)}{\partial t}-i(x,t)=0
 \end{gather*}
-
-\subsection{Telegraphengleichungen}
-\begin{eqnarray}
-	\frac{\partial u(x,t)}{\partial x}=R'*i(x,t)+L'*\frac{\partial i(x,t)}{\partial t}\\
-	\frac{\partial i(x,t)}{\partial x}=G'*u(x,t)+C'*\frac{\partial u(x,t)}{\partial t}
-\end{eqnarray}
+\begin{framed}
+	\subsection{Telegraphengleichungen}
+	\begin{eqnarray}
+		\frac{\partial u(x,t)}{\partial x}=R'*i(x,t)+L'*\frac{\partial i(x,t)}{\partial t}\\
+		\frac{\partial i(x,t)}{\partial x}=G'*u(x,t)+C'*\frac{\partial u(x,t)}{\partial t}
+	\end{eqnarray}
+\end{framed}
 
 
 	

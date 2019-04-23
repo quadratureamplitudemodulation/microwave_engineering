@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.4.23)  23 APR 2019 15:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.4.23)  23 APR 2019 17:29
 entering extended mode
 **./main.tex
 (main.tex
@@ -431,33 +431,41 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
 \mathdisplay@stack=\toks29
 LaTeX Info: Redefining \[ on input line 2844.
 LaTeX Info: Redefining \] on input line 2845.
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/framed\framed.sty"
+Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
+\OuterFrameSep=\skip60
+\fb@frw=\dimen152
+\fb@frh=\dimen153
+\FrameRule=\dimen154
+\FrameSep=\dimen155
 ) (main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
 
 ABD: EveryShipout initializing macros
 ("C:\Program Files\MiKTeX 2.9\tex/context/base/mkii\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count113
-\scratchdimen=\dimen152
+\scratchdimen=\dimen156
 \scratchbox=\box38
 \nofMPsegments=\count114
 \nofMParguments=\count115
 \everyMPshowfont=\toks30
 \MPscratchCnt=\count116
-\MPscratchDim=\dimen153
+\MPscratchDim=\dimen157
 \MPnumerator=\count117
 \makeMPintoPDFobject=\count118
 \everyMPtoPDFconversion=\toks31
@@ -514,15 +522,15 @@ G,.JBIG2,.JB2,.eps]
 <Grafiken/01_Leitungsmodell.png, id=11, 774.64406pt x 264.23718pt>
 File: Grafiken/01_Leitungsmodell.png Graphic file (type png)
 <use Grafiken/01_Leitungsmodell.png>
-Package pdftex.def Info: Grafiken/01_Leitungsmodell.png  used on input line 18.
+Package pdftex.def Info: Grafiken/01_Leitungsmodell.png  used on input line 19.
 
 (pdftex.def)             Requested size: 418.25555pt x 142.66982pt.
  [2 <./Grafiken/01_Leitungsmodell.png>] (main.aux) ) 
 Here is how much of TeX's memory you used:
- 12023 strings out of 492902
- 232099 string characters out of 3133538
- 386627 words of memory out of 3000000
- 15726 multiletter control sequences out of 15000+200000
+ 12076 strings out of 492902
+ 232787 string characters out of 3133538
+ 389052 words of memory out of 3000000
+ 15775 multiletter control sequences out of 15000+200000
  9898 words of font info for 36 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,8n,54p,9134b,220s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -533,7 +541,7 @@ lic/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfo
 nts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
 ssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.p
 fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on main.pdf (2 pages, 93262 bytes).
+Output written on main.pdf (2 pages, 93320 bytes).
 PDF statistics:
  43 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
