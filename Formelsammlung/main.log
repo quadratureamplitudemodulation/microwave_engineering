@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.4.23)  23 APR 2019 15:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.4.23)  23 APR 2019 15:51
 entering extended mode
 **./main.tex
 (main.tex
@@ -511,27 +511,28 @@ G,.JBIG2,.JB2,.eps]
 
 
 {C:/Users/AlexJager/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-<01_Leitungsmodell.png, id=11, 774.64406pt x 264.23718pt>
-File: 01_Leitungsmodell.png Graphic file (type png)
-<use 01_Leitungsmodell.png>
-Package pdftex.def Info: 01_Leitungsmodell.png  used on input line 18.
+<Grafiken/01_Leitungsmodell.png, id=11, 774.64406pt x 264.23718pt>
+File: Grafiken/01_Leitungsmodell.png Graphic file (type png)
+<use Grafiken/01_Leitungsmodell.png>
+Package pdftex.def Info: Grafiken/01_Leitungsmodell.png  used on input line 18.
+
 (pdftex.def)             Requested size: 418.25555pt x 142.66982pt.
- [2 <./01_Leitungsmodell.png>] (main.aux) ) 
+ [2 <./Grafiken/01_Leitungsmodell.png>] (main.aux) ) 
 Here is how much of TeX's memory you used:
- 12022 strings out of 492902
- 231966 string characters out of 3133538
+ 12023 strings out of 492902
+ 232099 string characters out of 3133538
  386627 words of memory out of 3000000
  15726 multiletter control sequences out of 15000+200000
  9898 words of font info for 36 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,8n,54p,9134b,220s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/t
-ype1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
-lic/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfo
-nts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
-r12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssbx10.pf
-b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+<C:/Program Files/MiKTeX 2.
+9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/
+type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
+lic/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfo
+nts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
+ssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.p
+fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
 Output written on main.pdf (2 pages, 93262 bytes).
 PDF statistics:
  43 PDF objects out of 1000 (max. 8388607)
