@@ -1,0 +1,8 @@
+ADS Komponente hinzufügen:
+
+1. ZIP herunterladen
+2. Workspace öffnen
+3. DesignKits -> Unzip Design Kit...
+4. ZIP auswählen
+5. Zielordner zum Entzippen wählen (am Besten Projektordner)
+6. "Yes"
