@@ -20,18 +20,16 @@
 \maketitle
 \newpage
 \section{Grundlegende Formeln}
-\begin{align*}
+\begin{align}
 	\lambda_0 & \hat{=}\text{ Wellenlänge im Vakuum} \\
-	v_{ph} & \hat{=}\text{ Phasengeschwindigkeit} \\
 	T&=\frac{1}{f} \\
 	\lambda _0&=\frac{c_0}{f} \\
 	\lambda&=\frac{\lambda_0}{\sqrt{\epsilon_R}} \\
-	v_{ph}&=\frac{c_0}{\sqrt{\epsilon_R}}
-\end{align*}
+\end{align}
 \begin{center}
 	Zusammenhang komplexer Zeiger und Zeitfunktion
 \end{center}
-\begin{align*}
+\begin{align}
 	u(t) & \hat{=} \text{ Zeitfunktion} \\
 	\Uc & \hat{=} \text{ Komplexer Amplitudenzeiger} \\
 	\Uc(x) & \hat{=} \text{ Komplexer Amplitudenzeiger an der Stelle x} \\
@@ -39,7 +37,7 @@
 	u(t)&=Re\{\Uc e^{j\omega t}\} \\
 	\Uc &=\hat U*e^{j\varphi} \\
 	\Uc(x)&=\Uc_0*e^{\gamma x}
-\end{align*}
+\end{align}
 
 \section{Leitungstheorie}
 \subsection{Leitungsmodell}
@@ -47,24 +45,24 @@
 	\includegraphics[width=\textwidth]{Grafiken/01_Leitungsmodell.png}
 \end{center}
 Kirchhoff'sche Regel führt z.B. zu
-\begin{gather*}
+\begin{gather}
 	u_R+u_L+u(x,t)-u(x+\Delta x,t)=0 \\	
 	R'*\Delta x*i(x+\Delta x,t)+L'*\Delta x*\frac{\partial i(x+\Delta x,t)}{\partial t}+u(x,t)-u(x+\Delta x,t)=0
-\end{gather*}
+\end{gather}
 oder
-\begin{gather*}
+\begin{gather}
 	i(x+\Delta x,t)-i_g-i_c-i(x,t)=0 \\
 	i(x+\Delta x,t)-G'*\Delta x*u(x,t)-C'*\Delta x*\frac{\partial u(x,t)}{\partial t}-i(x,t)=0
-\end{gather*}
+\end{gather}
 	\subsection{Telegraphengleichungen}
-	\begin{eqnarray*}
+	\begin{eqnarray}
 		\frac{\partial u(x,t)}{\partial x}=R'*i(x,t)+L'*\frac{\partial i(x,t)}{\partial t}\\
 		\frac{\partial i(x,t)}{\partial x}=G'*u(x,t)+C'*\frac{\partial u(x,t)}{\partial t}
-	\end{eqnarray*}
+	\end{eqnarray}
 	Daraus folgt
-	\begin{eqnarray*}
+	\begin{eqnarray}
 		\frac{\partial ^2u(x,t)}{\partial x^2}=L'C'\frac{\partial ^2u(x,t)}{\partial t^2}+(R'C'+L'G')\frac{\partial u(x,t)}{\partial t}+R'G'*u(x,t)
-	\end{eqnarray*}
+	\end{eqnarray}
 	\subsubsection{Telegraphengleichungen im Komplexen}
 	\begin{align}
 		\frac{\partial \Uc(x)}{\partial x}&=(R'+j\omega L')*\Ic(x) \\
@@ -72,20 +70,20 @@ oder
 		\frac{\partial ^2\Uc(x)}{\partial x^2}&=L'C'(j\omega)^2*\Uc(x)+(R'C'+L'G')j\omega*\Uc(x)+R'G'\Uc(x)	
 	\end{align}
 Durch Einsetzen von $\Uc(x)=\Uc_0e^{\gamma x}$ folgt
-\begin{eqnarray*}
+\begin{eqnarray}
 	\gamma_{1,2}=\pm \sqrt{(R'+j\omega L')+(G'+j\omega C')} \\
 	\gamma_{1,2}=\pm (\alpha+j\beta) \text{ mit } \beta=\frac{2\pi}{\lambda}
-\end{eqnarray*} 
+\end{eqnarray} 
 
 \subsection{Spannungszeiger an der Position x als Summe fort- und rücklaufender Welle}
-\begin{eqnarray*}
+\begin{eqnarray}
 	\Uc(x)=\Uc_F(x)+\Uc_B(x) \\
 	\Uc(x)=\Uc_{0F} e^{\gamma x} + \Uc_{0B} e^{-\gamma x}
-\end{eqnarray*}
+\end{eqnarray}
 Hinweis: Der Stromzeiger ergibt sich als Differenz der anderen Stromzeiger.
-\begin{equation*}
+\begin{equation}
 	\Ic(x)=\Ic_{0F} e^{\gamma x} - \Ic_{0B} e^{-\gamma x}
-\end{equation*}
+\end{equation}
 \subsection{Charakteristische Impedanz einer Leitung}
 \begin{mdframed}[backgroundcolor = sand]
 	\begin{equation}
@@ -99,44 +97,106 @@ Hinweis: Der Stromzeiger ergibt sich als Differenz der anderen Stromzeiger.
 
 \subsection{Reflexionskoeffizient verlustfreier Leitungen}
 Trifft eine Leitung der charakteristische Impedanz $Z_0$ auf einen Widerstand der Impedanz $\underline{Z}_2$ (Hinweis: $Z_0 \in \mathbb{R}$, weil die Leitung verlustfrei ist), so ergibt sich eine Reflexion mit dem Faktor
-\begin{equation*}
+\begin{equation}
 	\underline{r} = \frac{\Uc_B}{\Uc_F}
-\end{equation*}
+\end{equation}
 An der Position x=0 gilt
 \begin{mdframed}[backgroundcolor = sand]
-	\begin{equation*}
+	\begin{equation}
 		\underline{r}(x=0) = \frac{\underline{Z}_2-Z_0}{\underline{Z}_2+Z_0} 
-	\end{equation*}
+	\end{equation}
 \end{mdframed}
 \subsection{Gesamtimpedanz von Leitung und Widerstand}
 \begin{center}
 	\includegraphics[width=0.3\textwidth]{Grafiken/02_Leitungsimpedanz.png}
 \end{center}
-\begin{equation*}
-	\underline{Z}_1 = Z_0*\frac{\underline{Z}_2+jZ_0tan(\beta l)}{Z_0+j\underline{Z}_2tan(\beta l)} \text{ mit } \beta = \frac{2\pi}{\lambda}
-\end{equation*}
+\begin{mdframed}[backgroundcolor = sand]
+	\begin{equation}
+		\underline{Z}_1 = Z_0*\frac{\underline{Z}_2+jZ_0tan(\beta l)}{Z_0+j\underline{Z}_2tan(\beta l)} \text{ mit } \beta = \frac{2\pi}{\lambda}
+	\end{equation}
+\end{mdframed}
 Daraus folgt für $\underline{Z}_2 = 0$
-\begin{equation*}
+\begin{equation}
 	\underline{Z}_1 = jZ_0tan(\beta l)
-\end{equation*}
+\end{equation}
 und für $\underline{Z}_2\rightarrow\infty$
-\begin{equation*}
+\begin{equation}
 	\underline{Z}_1 = -jZ_0\frac{1}{tan(\beta l)}
-\end{equation*}
+\end{equation}
 \subsection{Leistung am Widerstand}
 Falls $\underline{r} = 0$ gilt
-\begin{equation*}
+\begin{equation}
 	A(x=l) = \frac{P_{load}}{P_{in}} = e^{-2\alpha l}
-\end{equation*}
+\end{equation}
  Für die am Lastwiderstand $\underline{Z}_2$ abfallende Leistung gilt
- \begin{equation*}
+ \begin{equation}
  	P_{avg} = \frac{1}{2}\frac{|\Uc_{F0}|^2}{Z_0}(1-|\underline{r}|^2)
- \end{equation*}
+ \end{equation}
+\subsection{TEM Leitungen}
+Tranversive-Elektromagnetisch Wellen: $TEM$ $\hat=$ $E_Z=H_Z=0$ 
+Ist eine Welle auf einer Leitung TEM, so gelten die folgenden Formeln.
+\begin{eqnarray}
+	\text{\textbf{Phasengeschwindigkeit}} \\
+	\frac{v_{ph}}{c_0}=\frac{1}{\sqrt{\epsilon_R}} \\
+	\text{\textbf{Verzögerung}} \\
+	\frac{1}{v_{ph}}\approx 3,3 \frac{ns}{m} \sqrt{\epsilon_R} \\
+	\text{\textbf{Induktivitätsbelag}} \\
+	L'=\frac{\mu_0}{2\pi}ln(\frac{D}{d}) \approx 0,2\frac{\mu H}{m}*ln(\frac{D}{d}) \\
+	\text{\textbf{Charakteristische Impedanz}} \\
+	Z_0 = \sqrt{\frac{\mu_0}{\epsilon_0}} * \frac{ln\frac{D}{d}}{2 \pi \sqrt{\epsilon_R}} = \frac{60 \omega}{\sqrt{\epsilon_R}} ln \frac{D}{d} \\
+	\text{\textbf{Grenzfrequenz des $TE_{11}$ Modells}} \\
+	f_c \approx \frac{2 c_0}{\pi \sqrt{\epsilon_R}(D+d)} \\
+	\text{\textbf{Kapazitätsbelag}} \\
+	C'= \frac{2 \pi \epsilon_0 \epsilon_R}{ln \frac{D}{d}} \approx 55,6\frac{pF}{m}*\frac{\epsilon_R}{ln\frac{D}{d}} \\
+\end{eqnarray}
+\subsection{Streuparameter}
+Normiere hin- und rücklaufende Wellen mit der Wurzel des Wellenwiderstand $Z_{0n}$ der jeweiligen Anschlussleitung an Tor i:
+\begin{eqnarray}
+	\underline{a}_n = \frac{\Uc_{Fn}}{\sqrt{Z_{0n}}}=\Ic_{Fn}*\sqrt{Z_{0n}} \\ 
+	\underline{b}_n = \frac{\Uc_{Bn}}{\sqrt{Z_{0n}}}=-\Ic_{Bn}*\sqrt{Z_{0n}} 
+\end{eqnarray}
+\begin{mdframed}[backgroundcolor = sand]
+	Mit der Matrix aller Streuparameter $\underline{S} \in \mathbb{R}^{n\times m}$ gilt nun das Gleichungssystem:
+	\begin{equation}
+		\vec{\underline{b}} = \underline{S}*\vec{\underline{a}}
+	\end{equation} 
+\end{mdframed}
+So entsteht beispielsweise für einen Vierpol (Zweitor) folgendes Gleichungssystem:
+\begin{eqnarray}
+	\begin{pmatrix}
+		\underline{b_1} \\
+		\underline{b_2}
+	\end{pmatrix}
+	= 
+	\begin{bmatrix}
+		\underline{S_{11}} & \underline{S_{12}} \\
+		\underline{S_{21}} & \underline{S_{22}}
+	\end{bmatrix}
+	*
+	\begin{bmatrix}
+		\underline{a_1} \\
+		\underline{a_2}
+	\end{bmatrix}
+\end{eqnarray}
+
+\section{Sende- und Empfangsantennen}
+\subsection{Maxwell-Gleichungen}
+\begin{align}
+		\vec{\nabla} \times \vec{E} &= -\frac{\partial \vec{B}}{\partial t} \\
+		\vec{\nabla} \times \vec{H} &= \vec{J}_c+\frac{\partial \vec{D}}{\partial t} \\
+		\vec{\nabla} * \vec{D} &= \rho \\
+		\vec{\nabla} * \vec{B} &= 0
+\end{align}
+
+
+
+
+
  \section{Standard-Parameter}
- \begin{align*}
- 	\epsilon_R&=4,6 \\
- 	H&=1,5mm\\
- 	T&=35\mu m\\
- 	tanD&=0,02
- \end{align*}
+\begin{align}
+\epsilon_R&=4,6 \\
+H&=1,5mm\\
+T&=35\mu m\\
+tanD&=0,02
+\end{align}
 \end{document}

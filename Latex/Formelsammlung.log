@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.4.23)  25 APR 2019 18:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.4.23)  26 APR 2019 15:23
 entering extended mode
 **./Formelsammlung.tex
 (Formelsammlung.tex
@@ -819,39 +819,43 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 <Grafiken/01_Leitungsmodell.png, id=11, 774.64406pt x 264.23718pt>
 File: Grafiken/01_Leitungsmodell.png Graphic file (type png)
 <use Grafiken/01_Leitungsmodell.png>
-Package pdftex.def Info: Grafiken/01_Leitungsmodell.png  used on input line 47.
+Package pdftex.def Info: Grafiken/01_Leitungsmodell.png  used on input line 45.
 
 (pdftex.def)             Requested size: 418.25555pt x 142.66982pt.
- [2 <./Grafiken/01_Leitungsmodell.png>] [3]
+ [2 <./Grafiken/01_Leitungsmodell.png>]
+Package mdframed Info: Not enough space on this page on input line 92.
+ [3]
+Package mdframed Info: Not enough space on this page on input line 92.
 <Grafiken/02_Leitungsimpedanz.png, id=26, 276.43275pt x 165.61874pt>
 File: Grafiken/02_Leitungsimpedanz.png Graphic file (type png)
 <use Grafiken/02_Leitungsimpedanz.png>
 Package pdftex.def Info: Grafiken/02_Leitungsimpedanz.png  used on input line 1
-13.
+11.
 (pdftex.def)             Requested size: 125.47794pt x 75.17722pt.
- [4 <./Grafiken/02_Leitungsimpedanz.png>] [5]
+ [4 <./Grafiken/02_Leitungsimpedanz.png>] [5] [6]
 (Formelsammlung.aux) ) 
 Here is how much of TeX's memory you used:
- 23017 strings out of 492902
- 444788 string characters out of 3133538
- 580987 words of memory out of 3000000
- 26656 multiletter control sequences out of 15000+200000
- 541066 words of font info for 58 fonts, out of 3000000 for 9000
+ 23028 strings out of 492902
+ 444896 string characters out of 3133538
+ 584987 words of memory out of 3000000
+ 26662 multiletter control sequences out of 15000+200000
+ 542640 words of font info for 64 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,11n,77p,9144b,317s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 55i,13n,77p,9144b,317s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
-cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi1
-0.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:
-/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program 
-Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiK
-TeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fo
-nts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
-pe1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
-ic/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfon
-ts/symbols/msbm10.pfb>
-Output written on Formelsammlung.pdf (5 pages, 147476 bytes).
+cm/cmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex1
+0.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C
+:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program
+ Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfo
+nts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbo
+ls/msbm10.pfb>
+Output written on Formelsammlung.pdf (6 pages, 175761 bytes).
 PDF statistics:
- 66 PDF objects out of 1000 (max. 8388607)
+ 73 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  23 words of extra memory for PDF output out of 10000 (max. 10000000)
 
